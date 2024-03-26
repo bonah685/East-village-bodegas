@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding:0;
+    background-color:  #333;
+  }
+  
+  #main {
+    width: 800px;
+    margin: 20px auto;
+  }
+  
+  
+  .common-list{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:20px;
+  }
+  
+  .list1 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:60px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list1:hover{
+    box-shadow: 0 0 20px red;
+  }
+  .list2 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:50px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list2:hover{
+    box-shadow: 0 0 20px red;
+  }
+  .list3 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:50px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list3:hover{
+    box-shadow: 0 0 20px red;
+  }
+  .list4 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:50px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list4:hover{
+    box-shadow: 0 0 20px red;
+  }
+  .list5 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:50px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list5:hover{
+    box-shadow: 0 0 20px red;
+  }
+  .list6 {
+    background:rgb(255, 255, 255); 
+    color:#000000; 
+    font-size:40px; 
+    height: 150px;
+    line-height:50px; 
+    text-align:center;
+    font-family: router;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease; 
+  }
+  .list6:hover{
+    box-shadow: 0 0 20px red;
+  }
+  
+   h1 {
+    font-family: decoy;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    margin-bottom: 40px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    width:800px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  
+  @media (max-width:590px){
+    .common-list{  
+    grid-template-columns:repeat(2, 1fr);  
+    }
+  }
+  
+ 
+  
+ 
+  
+  
+    

@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 30px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    border-color: azure;
+    border: 20px;
+    background-color: #333;
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+    height: 100vh;
+}
+.container{
+    padding: 10px;
+    height: 100vh;
+}
+
+.title {
+    position: fixed;
+    font-size: 100px;
+    text-align: left;
+    width: 750px;
+    left: 6%;
+    top: 30%;
+    font-family: decoy;
+    color: azure;
+
+
+}
+.rectangle {
+    text-decoration: none;
+    color: black;
+    height: 125px;
+    width: 700px;
+    background-color: limegreen;
+    background-position: right;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    right: 5%;
+    font-family: router;
+    text-align: center;
+    bottom: 87%;
+    font-size: 72px;
+    z-index: 1;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+.rectangle:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 2;
+}
+.rectangle2 {
+    text-decoration: none;
+    color: black;
+    height: 125px;
+    background-color: red;
+    background-size: cover;
+    width: 700px;
+    right: 5%;
+    font-size: 72px;
+    font-family: router;
+    background-position: center;
+    border-radius: 10px;
+    bottom: 74%;
+    text-align: center;
+    position: absolute;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+.rectangle2:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 4;
+}
+.rectangle3 {
+    text-decoration: none;
+    color: black;
+    height: 125px;
+    width: 700px;
+    font-family: router;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 62%;
+    font-size: 72px;
+    text-align: center;
+    border-radius: 10px;
+    right: 5%;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+.rectangle3:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
+.rectangle4 {
+    text-decoration: none;
+    color: black;
+    height: 125px;
+    width: 700px;
+    position: absolute;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 49%;
+    font-size: 72px;
+    font-family: router;
+    text-align: center;
+    border-radius: 10px;
+    right: 5%;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+.rectangle4:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
+.rectangle5 {
+    text-decoration: none;
+    color: black;
+    height: 125px;
+    width: 700px;
+    background-position: center;
+    font-family: router;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 72px;
+    bottom: 36%;
+    text-align: center;
+    right: 5%;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+.rectangle5:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 209;
+}
+
+.rectangle7 {
+    height: 125px;
+    width: 700px;
+    font-size: 72px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: limegreen;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 23%;
+    right: 5%;
+    font-family: router;
+    text-align: center;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.rectangle7:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
+.rectangle8 {
+    height: 125px;
+    width: 700px;
+    font-size: 72px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 10%;
+    right: 5%;
+    font-family: router;
+    text-align: center;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.rectangle8:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
+.rectangle9 {
+    height: 125px;
+    width: 700px;
+    background-color: blue;
+    position: absolute;
+    top: 90%;
+    font-size: 72px;
+    font-family: router;
+    text-align: center;
+    right: 5%;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: black;
+
+}
+.rectangle9:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
+.rectangle10 {
+    height: 125px;
+    width: 700px;
+    background-color: yellow;
+    position: absolute;
+    top: 103%;
+    right: 5%;
+    font-size: 72px;
+    font-family: router;
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.rectangle10:hover{
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+    z-index: 20;
+}
